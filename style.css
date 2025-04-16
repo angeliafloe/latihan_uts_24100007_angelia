@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "arial";
+    text-align: center;
+}
+
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    padding:50px 0;
+    background: linear-gradient(90deg,rgba(114, 102, 236, 1) 0%, rgba(120, 104, 229, 1) 50%, rgba(127, 104, 227, 1) 65%, rgba(133, 105, 225, 1) 84%, rgba(136, 105, 224, 1) 100%);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin: 15px;   
+    font-size: 50px;
+}
+
+p{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.cta-btn{
+    display: inline-block;
+    border-radius: 30px;
+    border:none;
+    margin: 15px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: #8469e2;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.about{
+    margin: 60px;
+    padding: 0 300px;
+}
+
+.line{
+    border-top: 2px dashed lightgrey;    
+    width: 90%;
+    margin: 50px auto;
+}
+
+.activity-grid{
+    display: flex;
+    margin:30px 0 60px 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.activity{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.activity i{
+    font-size: 40px;
+    color: #6a63f6;
+    margin-bottom: 15px;
+}
+
+
+
